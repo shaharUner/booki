@@ -1,0 +1,63 @@
+
+
+[{
+		"bookID": 1,
+		"bookCategory": "Children",
+		"bookName": "Moby Dick",
+		"bookImage": "mobi.jpg",
+		"bookDate": "December 08 1978",
+		"bookAuther": "Herman Melville",
+		"bookPrice": 26,
+		"bookDescription": "Moby-Dick; or, The Whale is a novel by American writer Herman Melville, published in 1851 during the period of the American Renaissance. Sailor Ishmael tells the story of the obsessive quest of Ahab, captain of the whaler the Pequod, for revenge on Moby Dick, the white whale that on the previous whaling voyage bit off Ahab's leg at the knee. "
+	},
+	{
+		"bookID": 2,
+		"bookCategory": "Adventures",
+		"bookName": "Ulysses",
+		"bookImage": "James_Joyce.jpg",
+		"bookDate": "October 17 1985",
+		"bookAuther": "James Joyce",
+		"bookPrice": 74,
+		"bookDescription": "Ulysses is a modernist novel by Irish writer James Joyce. It was first serialised in parts in the American journal The Little Review from March 1918 to December 1920, and then published in its entirety by Sylvia Beach in February 1922, in Paris. It is considered to be one of the most important works of modernist literature"
+	},
+	{
+		"bookID": 3,
+		"bookCategory": "Drama",
+		"bookName": "War and Peace",
+		"bookImage": "war-and-peace-book.jpg",
+		"bookDate": "May 12 1980",
+		"bookAuther": "Leo Tolstoy",
+		"bookPrice": 17,
+		"bookDescription": "The novel chronicles the history of the French invasion of Russia and the impact of the Napoleonic era on Tsarist society through the stories of five Russian aristocratic families. Portions of an earlier version, titled The Year 1805,[4] were serialized in The Russian Messenger from 1865 to 1867. The novel was first published in its entirety in 1869.[5] Newsweek in 2009 ranked it first in its Top 100 Books.[6] In 2007, Time magazine ranked War and Peace third in its poll of the 10 greatest books of all time while Anna Karenina was ranked firs"
+	},
+	{
+		"bookID": 4,
+		"bookCategory": "Children",
+		"bookName": "Anna Karenina",
+		"bookImage": "61L37fc36zL.jpg",
+		"bookDate": "October 31 1986",
+		"bookAuther": "Leo Tolstoy",
+		"bookPrice": 54,
+		"bookDescription": "Anna Karenina tells of the doomed love affair between the sensuous and rebellious Anna and the dashing officer, Count Vronsky. Tragedy unfolds as Anna rejects her passionless marriage and must endure the hypocrisies of society."
+	},
+	{
+		"bookID": 5,
+		"bookCategory": "Drama",
+		"bookName": "Madame Bovary",
+		"bookImage": "51dd7TymJfL.jpg",
+		"bookDate": "November 03 2001",
+		"bookAuther": "Gustave Flaubert",
+		"bookPrice": 21,
+		"bookDescription": "For daring to peer into the heart of an adulteress and enumerate its contents with profound dispassion, the author of Madame Bovary was tried for offenses against morality and religion"
+	},
+	{
+		"bookID": 6,
+		"bookCategory": "Children",
+		"bookName": "Middlemarch",
+		"bookImage": "51vOou9D1XL.jpg",
+		"bookDate": "May 28 1983",
+		"bookAuther": "George Eliot",
+		"bookPrice": 36,
+		"bookDescription": "Middlemarch: A Study of Provincial Life is a novel by George Eliot, the pen name of Mary Anne Evans, later Marian Evans. It is her seventh novel, begun in 1869 and then put aside during the final illness of Thornton Lewes, the son of her companion George Henry Lewes."
+	}
+]

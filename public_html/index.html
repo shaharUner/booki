@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- step 2 -->
+<html ng-app="booksModule" ng-controller="mainController">
+
+<head>
+  <title>{{title}}</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- step 2 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-route.min.js"></script>
+  <!-- step 2 -->
+  <script src="js/bookApp.js" type="text/javascript"></script>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="main">
+    <div class="header">
+      <div class="header_resize">
+        <div class="logo">
+          <h1><a href="#">Booki Shop</a></h1>
+        </div>
+        <div class="clr"></div>
+        <div class="menu">
+          <ul>
+            <li><a href="#!/home" class="active" ng-click="setActive($event);"><span>Home</span></a></li>
+            <li><a href="#!/about" ng-click="setActive($event);"><span>About Us</span></a></li>
+            <li><a href="#!/contact" ng-click="setActive($event);"><span>Contact Us</span></a></li>
+          </ul>
+        </div>
+        <div class="clr"></div>
+        <div class="logoimg">
+          <h2>Buy your new book online in our lead book store.<br />
+              For premium commercial books, you can check out<br />
+              <span>seli-books.com</span></h2>
+        </div>
+      </div>
+    </div>
+    <div class="body">
+      <div class="body_resize">
+        <ng-view></ng-view>
+        <div class="clr"></div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer_resize">
+        <p>&nbsp;&nbsp;</p>
+        <p>&nbsp;&nbsp;</p>
+        <div class="bg"></div>
+        <p class="lf">Copyright &copy; 2017 <a href="#">Booki Shop</a> - All Rights Reserved</p>
+        <p class="rf">Design by <a href="#">shahar uner</a></p>
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+</body>
+
+</html>
